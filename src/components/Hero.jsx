@@ -22,8 +22,8 @@ const Hero = () => {
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <h1 className="mb-6 h1 text-n-2 font-outline-n-1">
-            Regional&nbsp;Medical Olympiad 24'
+          <h1 className="mb-6 h1 text-n-2 font-outline-n-1 lg:text-[50px]">
+            Regional&nbsp;Medical Olympiad 2024
           </h1>
           <p className="max-w-3xl mx-auto mb-6 body-1 text-n-2 lg:mb-8">
             “Push Your Limit, Keep Studied for Community Medicine Orientied

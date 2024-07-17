@@ -10,9 +10,9 @@ const Lomba = () => {
     <Section id="lomba" crosses>
       <div className="container relative z-2">
         <Heading
-          className="text-center md:max-w-md lg:max-w-2xl"
+          className="text-center text-black md:max-w-md lg:max-w-2xl"
           title="Olympiade"
-          text="6 Cabang perlombaan RMO 24"
+          text="6 Cabang perlombaan RMO 2024"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">

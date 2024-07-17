@@ -31,14 +31,14 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50  border-b border-n-2 lg:bg-n-3/90 lg:backdrop-blur-sm ${
+      className={`fixed top-0 left-0 w-full z-50  border-b border-n-3 lg:bg-n-3/90 lg:backdrop-blur-sm ${
         openNavigation ? "bg-n-3" : "bg-n-3 backdrop-blur-sm"
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
          
-          <h1 className="text-n-2">RMO 24</h1>
+          <h1 className="text-black">RMO 24</h1>
           
         </a>
 
@@ -53,12 +53,12 @@ const Header = () => {
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block relative font-code text-2xl uppercase text-n-2 transition-colors hover:text-n-3 ${
+                className={`block relative font-code text-2xl uppercase text-black transition-colors hover:text-n-3 ${
                   item.onlyMobile ? "lg:hidden" : ""
-                } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
+                } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-[15px] lg:font-semibold ${
                   item.url === pathname.hash
                     ? "z-2 lg:text-n-2"
-                    : "lg:text-n-2/50"
+                    : "lg:text-n-2"
                 } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
               >
                 {item.title}
