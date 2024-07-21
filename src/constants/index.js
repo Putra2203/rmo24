@@ -1,5 +1,6 @@
 import {
   benefitIcon1,
+  icon,
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
@@ -34,6 +35,10 @@ import {
   telegram,
   twitter,
   yourlogo,
+  logo1,
+  logo2,
+  logo4,
+  logo3,
 } from "../assets";
 
 export const navigation = [
@@ -59,7 +64,7 @@ export const navigation = [
   },
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
+export const heroIcons = [logo1, logo2, logo3, logo4];
 
 export const notificationImages = [notification4, notification3, notification2];
 
@@ -235,7 +240,7 @@ export const lomba = [
     title: "Cardiorespiratory",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: icon,
     imageUrl: benefitImage2,
   },
   {
@@ -243,7 +248,7 @@ export const lomba = [
     title: "Genitourinary",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor responses.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
+    iconUrl: icon,
     imageUrl: benefitImage2,
     light: true,
   },
@@ -252,7 +257,7 @@ export const lomba = [
     title: "Musculoskeletal",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor accessible and convenient.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
+    iconUrl: icon,
     imageUrl: benefitImage2,
   },
   {
@@ -260,7 +265,7 @@ export const lomba = [
     title: "Digestive",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
+    iconUrl: icon,
     imageUrl: benefitImage2,
     light: true,
   },
@@ -269,7 +274,7 @@ export const lomba = [
     title: "Neuropsychiatric",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: icon,
     imageUrl: benefitImage2,
   },
   {
@@ -277,7 +282,7 @@ export const lomba = [
     title: "Tropical Infection",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor responses.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
+    iconUrl: icon,
     imageUrl: benefitImage2,
   },
 ];

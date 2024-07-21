@@ -3,6 +3,8 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Lomba from "./components/Lomba";
 import Timeline from "./components/Timeline";
+import Footer from "./components/Footer";
+import Registration from "./components/Registration";
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
         <About />
         <Lomba />
         <Timeline />
+        <Registration />
+        <Footer />
       </div>
 
     </>

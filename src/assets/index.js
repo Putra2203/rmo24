@@ -68,6 +68,7 @@ import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
+import icon from "./benefits/icon.png"
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -75,7 +76,25 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import logo1 from "./logo1.png";
+import logo2 from "./logo4.png";
+import logo3 from "./logo3.png";
+import logo4 from "./logo2.png";
+
+import regist1 from "./regist/regist1.jpg";
+import regist2 from "./regist/regist2.jpg";
+import regist3 from "./regist/regist3.jpg";
+import closedRegist from "./regist/closedRegist.jpg";
+
 export {
+  regist1,
+  regist2,
+  regist3,
+  closedRegist,
+  logo1,
+  logo2,
+  logo3,
+  logo4,
   brainwave,
   check,
   check2,
@@ -135,6 +154,7 @@ export {
   benefitCard5,
   benefitCard6,
   benefitIcon1,
+  icon,
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,

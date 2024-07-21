@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
+import logoRMO from "../assets/LOGORMO.svg";
 import { brainwave } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
@@ -35,11 +36,9 @@ const Header = () => {
         openNavigation ? "bg-n-3" : "bg-n-3 backdrop-blur-sm"
       }`}
     >
-      <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
+      <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-3">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
-         
-          <h1 className="text-black">RMO 24</h1>
-          
+          <img src={logoRMO} width={160}/>
         </a>
 
         <nav
@@ -56,9 +55,7 @@ const Header = () => {
                 className={`block relative font-code text-2xl uppercase text-black transition-colors hover:text-n-3 ${
                   item.onlyMobile ? "lg:hidden" : ""
                 } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-[15px] lg:font-semibold ${
-                  item.url === pathname.hash
-                    ? "z-2 lg:text-n-2"
-                    : "lg:text-n-2"
+                  item.url === pathname.hash ? "z-2 lg:text-n-2" : "lg:text-n-2"
                 } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
               >
                 {item.title}

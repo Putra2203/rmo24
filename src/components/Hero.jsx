@@ -8,6 +8,7 @@ import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
+import { logo1, logo2, logo3, logo4 } from "../assets"
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -26,14 +27,14 @@ const Hero = () => {
             Regional&nbsp;Medical Olympiad 2024
           </h1>
           <p className="max-w-3xl mx-auto mb-6 body-1 text-n-2 lg:mb-8">
-            “Push Your Limit, Keep Studied for Community Medicine Orientied
+            “Push Your Limit, Keep Studied <br /> for Community Medicine Orientied
             (PULMO)”
           </p>
           <Button href="#about" white>
             About Us
           </Button>
         </div>
-        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
+        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-10">
           <div className="relative z-1 p-0.5 rounded-2xl">
             <div className="relative bg-n-1 rounded-[1rem]">
               <div className="h-[1.4rem] bg-n-2 rounded-t-[0.9rem]" />
@@ -49,11 +50,13 @@ const Hero = () => {
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
-                    {heroIcons.map((icon, index) => (
-                      <li className="p-5" key={index}>
-                        <img src={icon} width={24} height={25} alt={icon} />
+                      <li className="flex gap-3 p-5">
+                        <img src={logo1} width={55} height={50} />
+                        <img src={logo4} width={130} height={50} />
+                        <img src={logo2} width={60} height={70} />
+                        <img src={logo3} width={60} height={60} />
+                        
                       </li>
-                    ))}
                   </ul>
                 </ScrollParallax>
               </div>
@@ -72,7 +75,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <CompanyLogos className="relative z-10 hidden mt-20 lg:block" />
+        <CompanyLogos className="relative z-10 hidden lg:block" />
       </div>
 
       <BottomLine />
