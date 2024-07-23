@@ -27,7 +27,7 @@ const Lomba = () => {
             >
               <div className="relative z-2 flex flex-col min-h-[20rem] w-[20rem] p-[2.4rem] pointer-events-none">
                 <h5 className="mb-5 text-black h5">{item.title}</h5>
-                <p className="mb-5 leading-tight ">{item.text}</p>
+                <p className="mb-5 leading-tight text-black">{item.text}</p>
                 <div className="flex items-center mt-auto">
                   <img
                     src={item.iconUrl}
