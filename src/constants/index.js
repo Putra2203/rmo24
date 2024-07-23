@@ -238,7 +238,7 @@ export const lomba = [
   {
     id: "0",
     title: "Cardiorespiratory",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+    text: "cardiorespiratory adalah salah satu cabang perlombaan yang akan dilombakan. Topik ini berisi mengenai sistem jantung dan pernafasan.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: icon,
     imageUrl: benefitImage2,
@@ -246,7 +246,7 @@ export const lomba = [
   {
     id: "1",
     title: "Genitourinary",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor responses.",
+    text: "Genitourinary adalah salah satu cabang perlombaan yang akan dilombakan. Topik ini berisi mengenai sistem urin dan genital.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: icon,
     imageUrl: benefitImage2,
@@ -255,7 +255,7 @@ export const lomba = [
   {
     id: "2",
     title: "Musculoskeletal",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor accessible and convenient.",
+    text: "Musculoskeletal adalah salah satu cabang perlombaan yang akan dilombakan. Topik ini berisi mengenai sistem tulang dan otot.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: icon,
     imageUrl: benefitImage2,
@@ -263,7 +263,7 @@ export const lomba = [
   {
     id: "3",
     title: "Digestive",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    text: "Digestive adalah salah satu cabang perlombaan yang akan dilombakan. Topik ini berisi mengenai sistem pencernaan.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: icon,
     imageUrl: benefitImage2,
@@ -272,7 +272,7 @@ export const lomba = [
   {
     id: "4",
     title: "Neuropsychiatric",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    text: "Neuropsychiatric adalah salah satu cabang perlombaan yang akan dilombakan. Topik ini berisi mengenai sistem saraf dan psikiatri.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: icon,
     imageUrl: benefitImage2,
@@ -280,7 +280,7 @@ export const lomba = [
   {
     id: "5",
     title: "Tropical Infection",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor responses.",
+    text: "Tropical Infection adalah salah satu cabang perlombaan yang akan dilombakan. Topik ini berisi mengenai penyakit menular.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: icon,
     imageUrl: benefitImage2,

@@ -222,7 +222,7 @@ const Timeline = () => {
               />
             </svg>
           </div>
-          <div className="mb-24 timeline-end">
+          <div className="mb-5 timeline-end lg:mb-24">
             <time className="font-mono italic">5 Oktober 2024</time>
             <div className="text-lg font-black">Closing Ceremony</div>
             Closing Ceremony akan dilaksanakan yakni pada tanggal 5 Oktober 2024. Acara ini merupakan penutupan acara Regional Medical Olympiad (RMO) 2024 yang diselenggarakan offline terdapat adanya penampilan dari guest star, penampilan video aftermovie dan tentunya terdapat serangkaian acara seperti penyerahan hadiah kepada pemenang RMO 2024 juga akan dilaksanakan pada acara ini.

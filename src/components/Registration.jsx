@@ -5,7 +5,7 @@ import { regist1, regist2, regist3, closedRegist } from "../assets";
 const Registration = () => {
   return (
     <Section id="registration" crosses>
-      <div className="container lg:mt-4">
+      <div className="container">
         <Heading
           title="Registrasi RMO24."
           text="Push Your Limit, Keep Studied for Community Medicine Orientied"
