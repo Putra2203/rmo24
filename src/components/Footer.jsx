@@ -1,20 +1,23 @@
-import logoRMO from "../assets/LOGORMO.svg";
+import logoRMO from "../assets/FRMO.png";
 
 const Footer = () => {
   return (
-    <footer className="p-10 footer bg-neutral text-neutral-content">
+    <footer className="flex flex-col items-center justify-center p-10 footer bg-neutral text-neutral-content lg:flex-row">
       <aside>
-        <img src={logoRMO} alt="#" width={300} />
-
-        <p>
-          Regional Medical Olympiad
-          <br />
-          Push Your Limit, Keep Studied for Community Medicine Orientied
-        </p>
+        <div className="flex justify-center w-full pr-3 lg:justify-start lg:w-[74rem]">
+          <img src={logoRMO} alt="#" width={150} />
+        </div>
+        <div>
+          <p className="pt-3 text-center lg:text-left">
+            Regional Medical Olympiad 2024
+            <br />
+            Universitas Muhammadiyah Semarang (UNIMUS)
+          </p>
+        </div>
       </aside>
       <nav>
         <h6 className="footer-title">For More information :</h6>
-        <div className="grid grid-flow-col gap-4">
+        <div className="text-center">
           <a
             className="text-white w-[2rem]"
             href="https://www.instagram.com/rmounimus2024?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="

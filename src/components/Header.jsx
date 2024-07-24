@@ -38,7 +38,7 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-3">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={logoRMO} width={160}/>
+          <img src={logoRMO} width={160} />
         </a>
 
         <nav
@@ -46,13 +46,13 @@ const Header = () => {
             openNavigation ? "flex" : "hidden"
           } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-1 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
         >
-          <div className="relative flex flex-col items-center justify-center m-auto z-2 lg:flex-row">
+          <div className="relative flex flex-col items-center m-auto z-2 lg:flex-row">
             {navigation.map((item) => (
               <a
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block relative font-code text-2xl uppercase text-black transition-colors hover:text-n-3 ${
+                className={`block justify-end relative font-code text-2xl uppercase text-black transition-colors hover:text-n-3 ${
                   item.onlyMobile ? "lg:hidden" : ""
                 } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-[15px] lg:font-semibold ${
                   item.url === pathname.hash ? "z-2 lg:text-n-2" : "lg:text-n-2"
