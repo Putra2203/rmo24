@@ -110,8 +110,10 @@ const Registration = () => {
                 {form1Status.countdown}
               </p>
               <div className="pt-4 card-body">
-                <h2 className="text-center card-title">Early Regist</h2>
-                <p>
+                <h2 className="text-center text-black card-title">
+                  Early Regist
+                </h2>
+                <p className="text-black">
                   Daftarkan tim Anda sekarang di Regional Medical Olympiad 2024.
                 </p>
                 <div className="flex flex-col items-end justify-center pt-5 card-actions">
@@ -132,8 +134,10 @@ const Registration = () => {
                 <img src={closedRegist} alt="Registration Closed" />
               </figure>
               <div className="card-body">
-                <h2 className="text-center card-title">Early Regist</h2>
-                <p>
+                <h2 className="text-center text-black card-title">
+                  Early Regist
+                </h2>
+                <p className="text-black">
                   Daftarkan tim Anda sekarang di Regional Medical Olympiad 2024
                 </p>
                 <div className="justify-end pt-5 card-actions">
@@ -159,10 +163,10 @@ const Registration = () => {
                 {form2Status.countdown}
               </p>
               <div className="pt-4 card-body">
-                <h2 className="text-center card-title">
+                <h2 className="text-center text-black card-title">
                   Late Regist {form2Status.extended ? "(Extended)" : ""}
                 </h2>
-                <p>
+                <p className="text-black">
                   Daftarkan tim Anda sekarang di Regional Medical Olympiad 2024.
                 </p>
                 <div className="flex flex-col items-end justify-center pt-5 card-actions">
@@ -183,10 +187,10 @@ const Registration = () => {
                 <img src={closedRegist} alt="Registration Closed" />
               </figure>
               <div className="card-body">
-                <h2 className="text-center card-title">
+                <h2 className="text-center text-black card-title">
                   Late Regist {form2Status.extended ? "(Extended)" : ""}
                 </h2>
-                <p>
+                <p className="text-black">
                   Daftarkan tim Anda sekarang di Regional Medical Olympiad 2024
                 </p>
                 <div className="justify-end pt-5 card-actions">
@@ -212,10 +216,10 @@ const Registration = () => {
                 {form3Status.countdown}
               </p>
               <div className="pt-4 card-body">
-                <h2 className="text-center card-title">
+                <h2 className="text-center text-black card-title">
                   Semifinal & Final Regist
                 </h2>
-                <p>
+                <p className="text-black">
                   Daftarkan tim Anda sekarang di Regional Medical Olympiad 2024.
                 </p>
                 <div className="flex flex-col items-end justify-center pt-5 card-actions">
@@ -236,10 +240,10 @@ const Registration = () => {
                 <img src={closedRegist} alt="Registration Closed" />
               </figure>
               <div className="card-body">
-                <h2 className="text-center card-title">
+                <h2 className="text-center text-black card-title">
                   Semifinal & Final Regist
                 </h2>
-                <p>
+                <p className="text-black">
                   Daftarkan tim Anda sekarang di Regional Medical Olympiad 2024
                 </p>
                 <div className="justify-end pt-5 card-actions">
