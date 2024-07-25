@@ -69,6 +69,12 @@ import benefitIcon3 from "./lomba/icon-3.svg";
 import benefitIcon4 from "./lomba/icon-4.svg";
 import benefitImage2 from "./lomba/image-2.png";
 import icon from "./lomba/icon.png"
+import icon1 from "./lomba/icon1.png"
+import icon2 from "./lomba/icon2.png"
+import icon3 from "./lomba/icon3.png"
+import icon4 from "./lomba/icon4.png"
+import icon5 from "./lomba/icon5.png"
+import icon6 from "./lomba/icon6.png"
 
 
 import discordBlack from "./socials/discord.svg";
@@ -156,6 +162,12 @@ export {
   benefitCard6,
   benefitIcon1,
   icon,
+  icon1,
+  icon2,
+  icon3,
+  icon4,
+  icon5,
+  icon6,
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
