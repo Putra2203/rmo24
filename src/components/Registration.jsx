@@ -142,7 +142,7 @@ const Registration = () => {
                 </p>
                 <div className="justify-end pt-5 card-actions">
                   <a
-                    href="https://forms.gle/NZ9f9gJgCuUmUZ7g9"
+                    href=""
                     className="text-white btn bg-n-3 hover:bg-[#EF5A6F]"
                   >
                     closed
@@ -195,7 +195,7 @@ const Registration = () => {
                 </p>
                 <div className="justify-end pt-5 card-actions">
                   <a
-                    href="https://forms.gle/NZ9f9gJgCuUmUZ7g9"
+                    href=""
                     className="text-white btn bg-n-3 hover:bg-[#EF5A6F]"
                   >
                     closed
@@ -248,7 +248,7 @@ const Registration = () => {
                 </p>
                 <div className="justify-end pt-5 card-actions">
                   <a
-                    href="https://forms.gle/NZ9f9gJgCuUmUZ7g9"
+                    href=""
                     className="text-white btn bg-n-3 hover:bg-[#EF5A6F]"
                   >
                     closed
